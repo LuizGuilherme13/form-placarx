@@ -9,49 +9,39 @@
     <title>PlacarX</title>
 </head>
 <body>
-    <div class="container w3-row">
+    <div class=" default-container w3-row">
 
-        <!--Tela de Cadastro-->
-        <div class="form w3-col s12 m6 l6">
-            <!-- Logo do Form -->
-            <div class="form-header w3-col s12 m6 l6">
-                <div class="image-form ">
-                    <img src="./assets/img/logo-placarx.webp" alt="">
-                </div>
+        <form class="form w3-display-container w3-col s12 m6 l12">
+            <div class="image-form w3-container w3-col s12 m6 l12">
+                <img class="w3-display-topmiddle " src="/assets/img/logo-placarx.webp" alt="">
             </div>
 
-            <!-- Inputs -->
-            <form action="#" class="w3-col s12 m6 l6">  
-                <div class="input-box">
-                    <label for="name">Nome</label>
-                    <input class="default-input w3-input" name="name" placeholder="USUARIO001" type="text" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="email">E-mail</label>
-                    <input class="default-input w3-input" name="email" placeholder="exemplo@dominio.com" type="email" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="contact">Contato</label>
-                    <input class="default-input w3-input" name="contact" placeholder="(99) 9999-9999" type="tel" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="password">Senha</label>
-                    <input class="default-input w3-input" name="password" placeholder="******" type="password" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="confirm-password">Confirmar senha</label>
-                    <input class="default-input w3-input" name="confirm-password" placeholder="******" type="password" required>
-                </div>
-
-                <div style="align-items: center; justify-content: center; display: flex;">
-                    <button class="default-button w3-button w3-orange">Registrar</button>
-                </div>
-            </form >
-        </div>
+            <!--Inputs-->
+            <div class="input-box w3-container w3-center w3-col s12 m6 l12">
+                <label for="name">Nome</label>
+                <input class="default-input w3-input" type="text" name="name" placeholder="USUARIO001" required>
+            </div>
+            <div class="input-box w3-container w3-center w3-col s12 m6 l12">
+                <label for="email">Email</label>
+                <input class="default-input w3-input" type="text" name="email" placeholder="exemplo@dominio.com" required>
+            </div>
+            <div class="input-box w3-container w3-center w3-col s12 m6 l12">
+                <label for="phone">Contato</label>
+                <input class="default-input w3-input" type="text" name="phone" placeholder="(99) 9999-9999" required>
+            </div>
+            <div class="input-box w3-container w3-center w3-col s12 m6 l12">
+                <label for="password">Senha</label>
+                <input class="default-input w3-input" type="text" name="password" placeholder="******" required>
+            </div>
+            <div class="input-box w3-container w3-center w3-col s12 m6 l12">
+                <label for="confirm-password">Confirmar senha</label>
+                <input class="default-input w3-input" type="text" name="confirm-password" placeholder="******" required>
+            </div>
+            <div class="w3-container w3-center w3-col s12 m6 l12">
+               <button class="default-button w3-button w3-orange">Entre</button>
+            </div>
+        </form>
+    
     </div>
 </body>
 </html>
