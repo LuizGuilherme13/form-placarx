@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 .default-container{
-    height: 100vh;
     width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,35 +10,20 @@
 }
 
 .form{
-    height: 75vh;
     width: 50%;
+    height: 75vh;
     display: flex;
-    flex-direction: column;
+    border-radius: 10px;
     align-items: center;
-    /* justify-content: center; */
+    flex-direction: column;
     background-color: #5A5A5A;
 }
 
-.form-header{
-     /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;  */
-}
-
 .image-form {
-    /* margin-top: 15px; */
     margin-bottom: 50px; 
 }
 .image-form img{
     width: 9rem;
-}
-
-
-.input-box{
-    /* padding: 5px; */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 .input-box label{
@@ -46,19 +31,18 @@
 }
 
 .default-input{
-    /* height: 30px; */
-    text-align: center;
     border: none;
     color: #FFFFFF;
+    text-align: center;
     border-radius: 5px;
     background-color: #444444;
 }
 
 .default-button{
     width: 50%;
+    margin-top: 10px;
     border-radius: 15px;
     color: #FFFFFF !important;
-    margin-top: 10px;
 }
 
 .default-button:hover{
